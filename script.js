@@ -1,18 +1,13 @@
-const menuButton = document.querySelector(".menu-button");
-const navLinks = document.querySelector(".nav-links");
-
-if (menuButton && navLinks) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("open");
-    menuButton.setAttribute("aria-expanded", String(isOpen));
+const button=document.querySelector('.menu-button');
+const links=document.querySelector('.nav-links');
+if(button&&links){
+  button.addEventListener('click',()=>{
+    const open=links.classList.toggle('open');
+    button.setAttribute('aria-expanded',String(open));
   });
-
-  navLinks.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("open");
-      menuButton.setAttribute("aria-expanded", "false");
-    });
-  });
+  links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    links.classList.remove('open');
+    button.setAttribute('aria-expanded','false');
+  }));
 }
-
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById('year').textContent=new Date().getFullYear();

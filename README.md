@@ -1,8 +1,5 @@
-# G & J MERCHANDISE Website
+# G & J MERCHANDISE
 
-Apple-inspired static website for GitHub Pages.
+A modern kitchen essentials brand website.
 
-## Before publishing
-1. Replace `yourbusiness@email.com` in `index.html`.
-2. Replace `assets/product-bags.svg` with your real product image later, if desired.
-3. Upload all files and the `assets` folder to the root of your GitHub repository.
+This version presents G & J MERCHANDISE as a broad kitchen brand covering preparation, cooking, storage and organization. The silicone storage bags are shown only as the first featured product.
