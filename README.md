@@ -1,2 +1,8 @@
-# GNJMERCHANDISE
-G &amp; J MERCHANDISE is dedicated to providing premium, innovative kitchen essentials that combine functionality, durability, and modern design, making everyday cooking and food storage simple, safe, and sustainable.
+# G & J MERCHANDISE Website
+
+Apple-inspired static website for GitHub Pages.
+
+## Before publishing
+1. Replace `yourbusiness@email.com` in `index.html`.
+2. Replace `assets/product-bags.svg` with your real product image later, if desired.
+3. Upload all files and the `assets` folder to the root of your GitHub repository.
